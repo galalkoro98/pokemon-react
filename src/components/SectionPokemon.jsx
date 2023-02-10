@@ -7,17 +7,19 @@ import { Article } from "./Article";
 
 export const SectionPokemon = () => (
   <section className="section__pokemon">
-    <div className="type__container">
-      <div className="type__pokemon__content">
-        <h2 className="type__title">Type</h2>
-        <div className="type__list__content">
-          <ul className="type"></ul>
+    <div className="article__type__container">
+      <div className="type__container">
+        <div className="type__pokemon__content">
+          <h2 className="type__title">Type</h2>
+          <div className="type__list__content">
+            <ul className="type"></ul>
+          </div>
         </div>
-      </div>
-      <div className="evolution__container">
-        <div className="evolution__pokemon__content">
-          <h3 className="evolution"> </h3>
-          <img className="evolution__image" src={icon} alt="evolution" />
+        <div className="evolution__container">
+          <div className="evolution__pokemon__content">
+            <h3 className="evolution"> </h3>
+            <img className="evolution__image" src={icon} alt="evolution" />
+          </div>
         </div>
       </div>
     </div>
@@ -36,10 +38,15 @@ export const SectionPokemon = () => (
             src={background}
             alt="rotate background"
           />
-          <img className="pokemon__evolution__image" src={evo} alt="evolution img" />
+          <img
+            className="pokemon__evolution__image"
+            src={evo}
+            alt="evolution img"
+          />
         </div>
       </div>
     </div>
+
     <Article />
   </section>
 );
