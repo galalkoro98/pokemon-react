@@ -1,0 +1,22 @@
+.pokemon__from__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.pokemon__form__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 30vw;
+    height: 5vh;
+}
+
+.pokemon__form{
+    display: flex;
+}
+
+

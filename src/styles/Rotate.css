@@ -1,0 +1,40 @@
+
+.pokemon__rotate__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 45rem;
+    height: 45rem;
+}
+
+.pokemon__rotate__content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+}
+
+.pokemon__background__rotate__image{
+    width: 25rem;
+    position: absolute;
+    animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.pokemon__rotate__image__evolution{
+    position: relative;
+    width: 11rem;
+}
