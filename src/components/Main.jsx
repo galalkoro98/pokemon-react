@@ -1,12 +1,13 @@
 import React from "react";
 
-import { SectionPokemon } from "./SectionPokemon";
-import { SectionForm } from "./SectionForm";
-import './styles/Main.css'
+import "../styles/Main.css";
+
+import { Section } from "./Section";
+import { Form } from "./Form";
 
 export const Main = () => (
   <main className="main">
-    <SectionPokemon />
-    <SectionForm />
+    <Section />
+    <Form />
   </main>
 );

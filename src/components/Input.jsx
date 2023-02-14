@@ -1,17 +1,18 @@
 import React from "react";
 
-import { usePokemon } from "../Pokemon";
+import { ToHandleInput } from "../scripts/ToHandleInput";
+
+import "../styles/Input.css";
 
 export const Input = () => {
-  const { inputField, handleInput, inputRef } = usePokemon();
+  const { input, handleInput } = ToHandleInput();
   return (
     <input
+      value={input}
+      onChange={handleInput}
       className="search__field"
       placeholder="search name or ID"
       type="text"
-      value={inputField}
-      onChange={handleInput}
-      ref={inputRef}
     />
   );
 };

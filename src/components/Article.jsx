@@ -1,5 +1,6 @@
 import React from "react";
-import "./styles/Article.css";
+
+import "../styles/Article.css";
 
 export const Article = () => (
   <article className="pokemon__article">
