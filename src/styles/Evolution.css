@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #fff;
 }
 
 .pokemon__evolution__image{
